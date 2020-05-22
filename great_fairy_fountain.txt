@@ -63,29 +63,44 @@ end
 #second response
 1.times do
   sleep 2.5
-  play :a2, amp: 2, pan: -1, sustain: 2
+  play :a2, amp: 2, pan: 1, sustain: 2
   sleep 0.5
   
-  play :c4, amp: 2, pan: -1, sustain: 2
+  play :c4, amp: 2, pan: 1, sustain: 2
   sleep 0.5
   
-  play :g4, amp: 2, pan: -1, sustain: 2
+  play :g4, amp: 2, pan: 1, sustain: 2
   sleep 0.5
   
-  play :f4, amp: 2, pan: -1, sustain: 2
+  play :f4, amp: 2, pan: 1, sustain: 2
   sleep 0.5
   
-  play :c5, amp: 2, pan: -1, sustain: 2
+  play :c5, amp: 2, pan: 1, sustain: 2
   sleep 0.5
   
-  play :g4, amp: 2, pan: -1, sustain: 2
+  play :g4, amp: 2, pan: 1, sustain: 2
   sleep 0.5
   
-  play :f4, amp: 2, pan: -1, sustain: 2
+  play :f4, amp: 2, pan: 1, sustain: 2
   sleep 0.5
   
-  play :c4, amp: 2, pan: -1, sustain: 2
+  play :c4, amp: 2, pan: 1, sustain: 2
   sleep 0.5
 end
 
 
+#third question
+1.times do
+  
+  play :g2, amp: 2, pan: -1, sustain: 2
+  sleep 0.5
+  
+  play :g3, amp: 2, pan: -1, sustain: 2
+  sleep 0.5
+  
+  play :as3, amp: 2, pan: -1, sustain: 2
+  sleep 0.5
+  
+  play :f4, amp: 2, pan: -1, sustain: 2
+  sleep 0.5
+end
