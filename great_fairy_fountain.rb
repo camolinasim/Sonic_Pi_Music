@@ -111,7 +111,7 @@ loop do
     
     sleep 2.0
     
-    play :g2, amp: 2, pan: -1, sustain: 2
+    play :g2, amp: 2, pan: 1, sustain: 2
     sleep 0.5
     
     play :E4, amp: 2, pan: 1, sustain: 2
@@ -155,28 +155,28 @@ loop do
   1.times do
     
     sleep 2
-    play :f2, amp: 2, pan: -1, sustain: 2
+    play :f2, amp: 2, pan: 1, sustain: 2
     sleep 0.5
     
-    play :f3, amp: 2, pan: -1, sustain: 2
+    play :f3, amp: 2, pan: 1, sustain: 2
     sleep 0.5
     
-    play :e4, amp: 2, pan: -1, sustain: 2
+    play :e4, amp: 2, pan: 1, sustain: 2
     sleep 0.5
     
-    play :d4, amp: 2, pan: -1, sustain: 2
+    play :d4, amp: 2, pan: 1, sustain: 2
     sleep 0.5
     
-    play :g4, amp: 2, pan: -1, sustain: 2
+    play :g4, amp: 2, pan: 1, sustain: 2
     sleep 0.5
     
-    play :f4, amp: 2, pan: -1, sustain: 2
+    play :f4, amp: 2, pan: 1, sustain: 2
     sleep 0.5
     
-    play :c5, amp: 2, pan: -1, sustain: 2
+    play :c5, amp: 2, pan: 1, sustain: 2
     sleep 0.5
     
-    play :as4, amp: 2, pan: -1, sustain: 2
+    play :as4, amp: 2, pan: 1, sustain: 2
     sleep 0.5
   end
 end
