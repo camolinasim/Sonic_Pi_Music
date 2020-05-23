@@ -1,41 +1,41 @@
-use_synth  :chipbass
-use_bpm 130
+use_synth :sine
+use_bpm 100
 
 loop do
   #first question
   1.times do
-    play :as2,  sustain: 1.5
+    play :as2,  sustain: 0.5
     sleep 0.5
     
-    play :as3,  sustain: 1.5
+    play :as3,  sustain: 0.5
     sleep 0.5
     
-    play :d4,  sustain: 1.5
+    play :d4,  sustain: 0.5
     sleep 0.5
     
-    play :a4,  sustain: 1.5
+    play :a4,  sustain: 1
     sleep 0.5
   end
   
   #first response
   1.times do
     sleep 2.5
-    play :d4, sustain: 1
-    sleep 0.5
-    
-    play :a4, sustain: 1
-    sleep 0.5
-    
-    play :g4, sustain: 1
-    sleep 0.5
-    
-    play :c5, sustain: 1
+    play :d4, sustain: 0.5
     sleep 0.5
     
     play :a4, sustain: 0.5
     sleep 0.5
     
     play :g4, sustain: 0.5
+    sleep 0.5
+    
+    play :c5, sustain: 0.2
+    sleep 0.5
+    
+    play :a4, sustain: 0.5
+    sleep 0.5
+    
+    play :g4, sustain: 0.2
     sleep 0.5
     
     play :e4, sustain: 0.5
@@ -47,16 +47,16 @@ loop do
   1.times do
     
     
-    play :a2, amp: 2, sustain: 1
+    play :a2, amp: 2, sustain: 0.5
     sleep 0.5
     
-    play :a3, amp: 2, sustain: 1
+    play :a3, amp: 2, sustain: 0.2
     sleep 0.5
     
-    play :c4, amp: 2, sustain: 1
+    play :c4, amp: 2, sustain: 0.2
     sleep 0.5
     
-    play :g4, amp: 2, sustain: 1
+    play :g4, amp: 2, sustain: 0.5
     
     
   end
@@ -64,28 +64,28 @@ loop do
   #second response
   1.times do
     sleep 2.5
-    play :a2, amp: 2, sustain: 1
+    play :a2, amp: 2, sustain: 0.5
     sleep 0.5
     
-    play :c4, amp: 2,  sustain: 1
+    play :c4, amp: 2,  sustain: 0.5
     sleep 0.5
     
-    play :g4, amp: 2,  sustain: 1
+    play :g4, amp: 2,  sustain: 0.5
     sleep 0.5
     
-    play :f4, amp: 2,  sustain: 1
+    play :f4, amp: 2,  sustain: 0.5
     sleep 0.5
     
-    play :c5, amp: 2,  sustain: 1
+    play :c5, amp: 2,  sustain: 0.5
     sleep 0.5
     
-    play :g4, amp: 2,  sustain: 1
+    play :g4, amp: 2,  sustain: 0.5
     sleep 0.5
     
-    play :f4, amp: 2,  sustain: 1
+    play :f4, amp: 2,  sustain: 0.5
     sleep 0.5
     
-    play :c4, amp: 2,  sustain: 1
+    play :c4, amp: 2,  sustain: 0.5
     sleep 0.5
   end
   
@@ -114,25 +114,25 @@ loop do
     play :g2, amp: 2,  sustain: 1
     sleep 0.5
     
-    play :E4, amp: 2,  sustain: 1
+    play :E4, amp: 2,  sustain: 0.2
     sleep 0.5
     
-    play :f4, amp: 2,  sustain: 1
+    play :f4, amp: 2,  sustain: 0.2
     sleep 0.5
     
-    play :E4, amp: 2,  sustain: 1
+    play :E4, amp: 2,  sustain: 0.2
     sleep 0.5
     
     play :g4, amp: 2,  sustain: 1
     sleep 0.5
     
-    play :E4, amp: 2,  sustain: 1
+    play :E4, amp: 2,  release: 1
     sleep 0.5
     
-    play :c4, amp: 2,  sustain: 1
+    play :c4, amp: 2,  release: 1
     sleep 0.5
     
-    play :a3, amp: 2, sustain: 1
+    play :a3, amp: 2, release: 1
     sleep 0.5
     
   end
@@ -155,28 +155,28 @@ loop do
   1.times do
     
     sleep 2
-    play :f2, amp: 2,  sustain: 2
+    play :f2, amp: 2,  sustain: 1
     sleep 0.5
     
-    play :f3, amp: 2, sustain: 1
+    play :f3, amp: 2, sustain: 0.2
     sleep 0.5
     
-    play :e4, amp: 2, sustain: 1
+    play :e4, amp: 2, sustain: 0.2
     sleep 0.5
     
-    play :d4, amp: 2, sustain: 1
+    play :d4, amp: 2, sustain: 0.2
     sleep 0.5
     
-    play :g4, amp: 2,  sustain: 1
+    play :g4, amp: 2,  sustain: 0.2
     sleep 0.5
     
-    play :f4, amp: 2,  sustain: 1
+    play :f4, amp: 2,  sustain: 0.2
     sleep 0.5
     
-    play :c5, amp: 2,  sustain: 1
+    play :c5, amp: 2,  sustain: 0.2
     sleep 0.5
     
-    play :as4, amp: 2, sustain: 1
+    play :as4, amp: 2, sustain: 0.5
     sleep 0.5
   end
 end
