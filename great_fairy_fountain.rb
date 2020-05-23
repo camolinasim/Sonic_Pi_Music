@@ -1,5 +1,6 @@
 use_synth :piano
-use_bpm 155
+use_bpm 130
+
 
 #first question
 1.times do
@@ -105,5 +106,33 @@ end
   sleep 0.5
 end
 
-
-
+#third response
+1.times do
+  
+  sleep 2.0
+  
+  play :g2, amp: 2, pan: -1, sustain: 2
+  sleep 0.5
+  
+  play :E4, amp: 2, pan: 1, sustain: 2
+  sleep 0.5
+  
+  play :f4, amp: 2, pan: 1, sustain: 2
+  sleep 0.5
+  
+  play :E4, amp: 2, pan: 1, sustain: 2
+  sleep 0.5
+  
+  play :g4, amp: 2, pan: 1, sustain: 2
+  sleep 0.5
+  
+  play :E4, amp: 2, pan: 1, sustain: 2
+  sleep 0.5
+  
+  play :c4, amp: 2, pan: 1, sustain: 2
+  sleep 0.5
+  
+  play :a3, amp: 2, pan: 1, sustain: 2
+  sleep 0.5
+  
+end
